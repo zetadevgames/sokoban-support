@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - ZetaDev Support</title>
+    <style>
+        :root {
+            --primary: #2ecc71;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Mantendo o estilo isométrico do card principal */
+        .thank-you-card {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 10px 10px 0px rgba(44, 62, 80, 0.1);
+            width: 100%;
+            max-width: 500px;
+            border: 2px solid var(--dark);
+            text-align: center;
+            transform: skewY(-1deg);
+        }
+
+        h1 {
+            color: var(--dark);
+            margin-top: 0;
+            border-bottom: 4px solid var(--primary);
+            display: inline-block;
+        }
+
+        p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        .icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            box-shadow: 4px 4px 0px var(--dark);
+            transition: all 0.2s;
+        }
+
+        .back-button:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0px var(--dark);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="thank-you-card">
+        <div class="icon">🎮</div>
+        <h1>Thank You!</h1>
+        <p>Your report has been successfully submitted. We appreciate your help in making <strong>3D Sokoban Quest</strong> a better game!</p>
+        <p>Our team will look into it as soon as possible.</p>
+        
+        <a href="index.html" class="back-button">BACK TO SUPPORT</a>
+    </div>
+
+</body>
+</html>
